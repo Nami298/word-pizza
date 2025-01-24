@@ -1,0 +1,33 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:padding="8dp"
+    android:layout_margin="10dp">
+
+
+    <TextView
+        android:id="@+id/levelText"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:gravity="center"
+        android:background="@drawable/level_bg"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" >
+    </TextView>
+    <ImageView
+        android:id="@+id/lockLevel"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:textSize="16sp"
+        android:background="@drawable/level_bg"
+        android:backgroundTint="#ffc785"
+
+        >
+
+    </ImageView>
+
+</LinearLayout>

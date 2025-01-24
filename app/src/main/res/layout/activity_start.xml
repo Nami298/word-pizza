@@ -2,6 +2,23 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#FFEB00"
+    >
 
+    <Button
+        android:id="@+id/startbtn"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="300dp"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="28dp"
+        android:text="بزن بریم"
+        android:backgroundTint="#FF6500"
+
+        >
+
+    </Button>
 </LinearLayout>
